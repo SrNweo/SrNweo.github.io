@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+header {
+    background-color: #222;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0%;
+    color: #fff;
+}
+
+nav {
+    background-color: #aaa;
+}
+
+.info p {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.dm {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: #aaa;
+    padding: 1px 20px 20px 20px;
+    margin: 0 20%;
+    border-radius: 5px;
+}
+
+a {
+    color: #000;
+}
