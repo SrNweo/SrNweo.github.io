@@ -19,17 +19,36 @@ header h1 {
 
 nav {
     background-color: #aaa;
+    transition: 0.1s;
+}
+
+#svg *:hover {
+    cursor: pointer;
+}
+
+#twitter:hover {
+    fill: #1d9bf0;
+}
+
+#discord:hover {
+    fill: #5865f2;
+}
+
+#github:hover {
+    fill: #777777;
+}
+
+#youtube:hover {
+    fill: #ff0000;
+}
+
+#codepen:hover {
+    fill: #777777;
 }
 
 .info p {
     padding: 0;
     margin: 0 0 10px 0;
-}
-
-.dm {
-    display: inline;
-    padding: 0;
-    margin: 0;
 }
 
 article {
