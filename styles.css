@@ -19,31 +19,41 @@ header h1 {
 
 nav {
     background-color: #aaa;
-    transition: 0.1s;
+    padding: 10px;
+}
+
+#svg * {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #svg *:hover {
-    cursor: pointer;
+    background-color: #000000aa;
 }
 
 #twitter:hover {
-    fill: #1d9bf0;
+    fill: #1da1f2;
 }
 
 #discord:hover {
-    fill: #5865f2;
+    fill: #7289da;
 }
 
 #github:hover {
-    fill: #777777;
+    fill: #6cc644;
 }
 
 #youtube:hover {
     fill: #ff0000;
 }
 
+#instagram:hover {
+    fill: #e1306c;
+}
+
 #codepen:hover {
-    fill: #777777;
+    fill: #0ebeff;
 }
 
 .info p {
