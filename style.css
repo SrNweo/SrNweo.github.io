@@ -1,0 +1,26 @@
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav p{
+  cursor: pointer;
+}
+
+#twt:hover {
+  color: #1da1f2;
+  text-shadow: #00acee 0 0 1px;
+}
+
+#dsc:hover {
+  color: #5865f2;
+  text-shadow: #5865f2 0 0 1px;
+}
